@@ -2,3 +2,22 @@ name: PlayerMute
 version: '${version}'
 main: net.nfya.playermute.PlayerMute
 api-version: '1.20'
+
+commands:
+  mute:
+    description: 指定したプレイヤーをミュートします。
+    usage: /mute <プレイヤー名>
+    permission: playermute.mute
+    permission-message: "このコマンドを実行する権限がありません。"
+  unmute:
+    description: 指定したプレイヤーのミュートを解除します。
+    usage: /unmute <プレイヤー名>
+    permission: playermute.unmute
+    permission-message: "このコマンドを実行する権限がありません。"
+permissions:
+  mutechat.mute:
+    description: "プレイヤーをミュートする権限"
+    default: op
+  mutechat.unmute:
+    description: "プレイヤーのミュートを解除する権限"
+    default: op
