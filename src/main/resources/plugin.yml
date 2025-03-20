@@ -1,0 +1,4 @@
+name: PlayerMute
+version: '${version}'
+main: net.nfya.playermute.PlayerMute
+api-version: '1.20'
