@@ -2,7 +2,7 @@
 Minecraft Bukkit 1.20.4 API を使用したプレイヤーミュートプラグイン
 
 ### 対応バージョン
-Minecraft Bukkit / Paper 1.20.4
+Minecraft Bukkit / Paper, Spigot 1.20.4
 
 ### コマンド一覧
 コマンド一覧:
